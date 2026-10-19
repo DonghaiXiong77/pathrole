@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+title: pathrole
+message: If you use this software, please cite the accompanying paper.
+type: software
+authors:
+  - family-names: Xiong
+    given-names: Donghai
+  - family-names: Yang
+    given-names: Jing
+  - family-names: Zheng
+    given-names: Junjun
+  - family-names: Yang
+    given-names: Chuanjia
+repository-code: https://github.com/DonghaiXiong77/pathrole
+license: MIT
+version: 1.0.0

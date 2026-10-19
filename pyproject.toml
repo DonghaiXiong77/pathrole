@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pathrole"
+version = "1.0.0"
+description = "Role-resolved, composition-adjusted pathway analysis for bulk transcriptomes"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [{ name = "Donghai Xiong" }]
+keywords = ["genomics", "transcriptomics", "pathway analysis", "deconvolution",
+            "tumour microenvironment", "cell death"]
+classifiers = [
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+dependencies = ["numpy>=1.24", "pandas>=2.0", "scipy>=1.10"]
+
+[project.urls]
+Homepage = "https://github.com/DonghaiXiong77/pathrole"
+Repository = "https://github.com/DonghaiXiong77/pathrole"
+Issues = "https://github.com/DonghaiXiong77/pathrole/issues"
+
+[project.optional-dependencies]
+test = ["pytest>=7.0"]
+
+[project.scripts]
+pathrole = "pathrole.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
