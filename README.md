@@ -145,6 +145,9 @@ If `pathrole` is useful, please cite the paper describing it:
 > infiltration-driven signals in papillary thyroid cancer. *Genomics* (under
 > review).
 
+The software release itself is archived at
+[10.5281/zenodo.23485319](https://doi.org/10.5281/zenodo.23485319).
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
